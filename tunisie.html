@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="L'importance des céréales, Les épices, Les plats, Recettes tunisiennes...">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
     <title>Blog Amine Yummy Food</title>
-
+    <meta name="description" content="L'importance des céréales, Les épices, Les plats, Recettes tunisiennes...">
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
 
@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/Organization">
     <!-- Preloader Start -->
     <div id="preloader">
         <div class="yummy-load"></div>
@@ -141,8 +141,8 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
-                    <div class="bradcumb-title text-center">
-                        <h2>La cuisinne tunisienne</h2>
+                    <div class="bradcumb-title text-center" itemprop="name">
+                        <h2>La cuisine tunisienne</h2>
                     </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@
                                     <div class="post-meta d-flex">
                                         <div class="post-author-date-area d-flex">
                                             <!-- Post Author -->
-                                            <div class="post-author">
+                                            <div class="post-author" itemprop="creator">
                                                 <a href="#">By Amine</a>
                                             </div>
                                             <!-- Post Date -->
@@ -221,8 +221,9 @@
                                     </div>
                                     <a href="#">
                                         <h2 class="post-headline">L'importance des céréales</h2>
+                                        <p type='hidden' itemprop="description">L'importance des céréales, Les épices, Les plats, Recettes tunisiennes...</p>
                                     </a>
-                                    <p>Du fait d'une production céréalière historiquement dominée par le blé dur, l'aliment le plus consommé est sans doute les pâtes, en particulier les spaghettis et macaronis servis généralement avec de la sauce tomate et de la viande plus ou moins relevée d'épices, d'ail et de piment. Toutefois, le couscous reste le plat traditionnel par excellence. Celui-ci est caractérisé par une combinaison entre les légumes (pommes de terre, tomates, carottes, courges, etc.), la viande (surtout celle d'agneau) et la semoule dont la graine est produite à partir de la même variété de blé. Le couscous est consommé très fréquemment sous des formes simples — notamment le couscous au poisson qui est une spécialité des zones côtières comme Sfax, Gabès et Djerba — ou sous des formes plus élaborées à l'occasion de cérémonies. 
+                                    <p itemprop="text">Du fait d'une production céréalière historiquement dominée par le blé dur, l'aliment le plus consommé est sans doute les pâtes, en particulier les spaghettis et macaronis servis généralement avec de la sauce tomate et de la viande plus ou moins relevée d'épices, d'ail et de piment. Toutefois, le couscous reste le plat traditionnel par excellence. Celui-ci est caractérisé par une combinaison entre les légumes (pommes de terre, tomates, carottes, courges, etc.), la viande (surtout celle d'agneau) et la semoule dont la graine est produite à partir de la même variété de blé. Le couscous est consommé très fréquemment sous des formes simples — notamment le couscous au poisson qui est une spécialité des zones côtières comme Sfax, Gabès et Djerba — ou sous des formes plus élaborées à l'occasion de cérémonies. 
                                         <br>
                                     Le pain fait partie intégrante des trois repas quotidiens des Tunisiens qui en consomment plusieurs variétés : le khobz talian dit « pain italien » (pain blanc brié avec beaucoup de mie), le pain fait maison (comme le pain de semoule ou khobz mbesses) ou le pain tabouna, pain rustique traditionnel autrefois largement consommé dans le Sud tunisien et cuit dans des fours construits en terre mêlée à de l'argile (tabouna désignant ce type de four).</p>
 
@@ -560,7 +561,7 @@
                 <div class="col-12">
                     <!-- Copywrite Text -->
                     <div class="copy_right_text text-center">
-                        <p>Copyright @2018 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                        <p>Proposé par <span itemprop="attendee" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Amine</span> et <span itemprop="colleague">Mendy</span>
                     </div>
                 </div>
             </div>
@@ -579,23 +580,6 @@
     <!-- Active JS -->
     <script src="js/active.js"></script>
     <script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Article",
-  "name" : "Single Post Blog",
-  "author" : {
-    "@type" : "Person",
-    "name" : "Amine Ben Ouaghram"
-  },
-  "datePublished" : "2018-04-20",
-  "image" : "https://amine1.herokuapp.com/img/blog-img/mechouia.jpg",
-  "articleSection" : "La cuisine tunisienne",
-  "articleBody" : "La cuisine tunisienne, cuisine typiquement méditerranéenne, découle d'une tradition ancestrale de culture gastronomique en Tunisie et reflète les héritages culturels successifs (berbères, puniques, arabes, juifs, turcs, italiens, etc.) ; Elle dépend du climat régional et de la géographie du pays, et par conséquent de ses produits locaux : blé (que l'on retrouve sous forme de pain, pâtes ou semoule), olives et huile d'olive, viande (surtout de mouton, bœuf, poulet et autres volailles, voire de chameau dans certaines régions du sud), fruits et légumes, poissons et fruits de mer (calmar, poulpe, thon, rouget, sparidés, daurade, loup de mer, etc.), surtout le long des côtes. Cette cuisine se différencie sensiblement de ses voisines maghrébines : le tajine tunisien est ainsi différent de la version marocaine ou algérienne, il en est de même pour certaines préparations de pâtes, de salades, etc.",
-  "url" : "https://amine1.herokuapp.com/tunisie.html",
-  "publisher" : {
-    "@type" : "Organization",
-    "name" : "Copyright @2018 All rights reserved | This template is made with by Colorlib"
-  }
-}
+
 </script>
 </body>
